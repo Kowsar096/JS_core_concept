@@ -18,11 +18,11 @@ if(price){
     console.log("Price is Truthy");
 };
 let balance = 0;
-if(!balance){
+if(!balance){ // logical not operator
     console.log("Balance is Truthy");
 };
 
 let value = 5;
-if(!!value){
+if(!!value){ // double not operator
     console.log("Truthy")
 }
